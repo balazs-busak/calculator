@@ -1,0 +1,19 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellowgreen;
+    gap: 25px;
+}
+
+.buttons-layout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
